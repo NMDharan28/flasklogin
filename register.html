@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<h1> Login page</h1>
+<form action="/confirm" method="post">
+    <label>Username</label>
+    <br>
+    <input type="text" name="username">
+    <br>
+    <label>Password</label>
+    <br>
+    <input type ="text" name="password">
+    <br>
+    <!--<label>City</label>
+    <input type ="text" name ="city">
+    <br>
+    -->
+    <input type="submit" value="login">
+</form>
+    <a href ="{{url_for ('sign')}}">Don't have an account? Sign Up</a>
+
+</body>
+</html>
